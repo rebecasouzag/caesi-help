@@ -1,0 +1,23 @@
+# Segredos e ambiente
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+eval/.cache/
+
+# Dados do curso: pessoas (professores, e-mails, salas), documentos baixados, FAQ, Eureca e o que o CA revisou
+data/
+revisao/
+
+# Material do CA e relatórios gerados a partir dos dados
+eval/perguntas.yaml
+eval/perguntas-reservadas.yaml
+eval/report*.md
+
+# Anotações de trabalho e configuração local do assistente de código
+CLAUDE.md
+.claude/
+
+# Exportações de conversas e dados pessoais de alunos
+*.txt
+!requirements.txt
